@@ -1,0 +1,26 @@
+#ülesanne 2.3
+ringide_arv = int(input("Sisesta ringide arv: "))
+
+i = 2
+porgandid = 0
+while i <= ringide_arv:
+ porgandid += i
+ i += 2
+print("Porgandite koguarv on " + str(porgandid))
+
+print()
+#ülesanne 2.2
+aratuste_arv = int(input("Sisestage mitu korda äratada: "))
+print(("Tõuse ja sära!\n") * aratuste_arv)
+
+#ülesanne 2.1
+inimeste_arv = int(input("Inimeste arv: "))
+kohtade_arv = int(input("Kohtade arv: "))
+busse_vaja = inimeste_arv // kohtade_arv
+jaak = inimeste_arv % kohtade_arv
+if jaak == 0:
+    print (("busside arv:"), busse_vaja)
+    print (("Viimases bussis inimesi:"), kohtade_arv)
+else:
+    print (("busside arv:"), busse_vaja + 1)
+    print (("Viimases bussis inimesi:"), jaak)
