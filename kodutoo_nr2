@@ -1,6 +1,5 @@
 #ülesanne 2.3
 ringide_arv = int(input("Sisesta ringide arv: "))
-
 i = 2
 porgandid = 0
 while i <= ringide_arv:
